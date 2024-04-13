@@ -12,7 +12,7 @@ const Topbar = ({navItens}) => {
           navItens.map((item,idx) =>{
            return (
               <li key={idx}>
-              <a href={item.href} className="cursor-pointer hover:text-blue-700 font-semibold">
+              <a href={item.href} className="cursor-pointer uppercase hover:text-blue-700 font-semibold">
                 {item.label}
                 </a>
             </li>

@@ -26,6 +26,9 @@ function App() {
     <section className="pt-32">
       <Testimonials/>
     </section>
+    <section className="pt-32">
+     
+    </section>
   
    </div>
   )
